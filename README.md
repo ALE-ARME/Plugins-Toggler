@@ -1,5 +1,8 @@
 # Description
 This plugin enables, disables or reloads any installed plugin via the command palette. It can also disable all plugins and remember which ones were active to re-enable them with the another command later.
+
+It works on computer and mobile and it's useful to enable and disable rarely used plugins, but also for debuggin other plugins by using disable all plugins and re-enable remembered plugins
+It works on computer and mobile
 # Installation
 ## 
 1. Go to the [latest release page](https://github.com/ALE-ARME/Plugins-Toggler/releases/latest)
@@ -10,11 +13,11 @@ This plugin enables, disables or reloads any installed plugin via the command pa
 6. Go to `Obsidian's Community Plugins` tab in Obsidian's settings and reload the plugins list
 7. Enable the plugin
 ## From Community Plugins Tab
-It's not available there currently.
+It's not available there currently
 # Configuration
 In the settings if you toggle off the only option present, when you'll use the command to disable all the plugins, Plugins Toggler will not be disabled.
 
-A `data.json` file will be created containing the values of the above choice.
+A `data.json` file will be created containing the values of the above choice
 # Usage
 1.  Open the command palette (Ctrl/Cmd + P)
 2.  Search for `Plugins Toggler` to see all the available commands
