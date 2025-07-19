@@ -33,3 +33,5 @@ A `data.json` file will be created containing the values of the above choice
 # Disclaimer
 - This plugin was made by `gemini-2.5-flash` and `gemini-2.5-pro` through [gemini-cli](https://github.com/google-gemini/gemini-cli)
 - If you face any problem open an issue (i don't guarantee i'll be able to fix it, but atleast other people can see what issues the plugin has before installing it)
+# My other plugins
+- https://github.com/ALE-ARME/Hey-Wake-Up
