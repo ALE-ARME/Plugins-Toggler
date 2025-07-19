@@ -1,0 +1,24 @@
+{
+  "name": "plugins-toggler",
+  "version": "1.0.0",
+  "description": "A plugin to quickly enable and disable other Obsidian plugins from the command palette.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "release": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ALE-ARME",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "esbuild": "^0.17.3",
+    "obsidian": "^1.1.0",
+    "tslib": "^2.4.0",
+    "typescript": "^5.0.0"
+  }
+}
