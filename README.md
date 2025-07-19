@@ -3,7 +3,7 @@ This plugin enables, disables or reloads any installed [Obsidian](https://github
 
 It works on computer and mobile and it's useful to enable and disable rarely used plugins, but also for debuggin other plugins by using `Disable ALL plugins (remembering active ones)` and `Re-enable remembered plugins` commands
 # Installation
-## 
+## Manual
 1. Go to the [latest release page](https://github.com/ALE-ARME/Plugins-Toggler/releases/latest)
 2. Download `main.js` and `manifest.js`
 3. Go to `YourVaultName/.obsidian/plugins`
@@ -12,7 +12,7 @@ It works on computer and mobile and it's useful to enable and disable rarely use
 6. Go to `Obsidian's Community Plugins` tab in Obsidian's settings and reload the plugins list
 7. Enable the plugin
 ## From Community Plugins Tab
-It's not available there currently
+It's not available there currently, but i've submitted it
 # Configuration
 In the settings if you toggle off the only option present, when you'll use the command to disable all the plugins, Plugins Toggler will not be disabled.
 
