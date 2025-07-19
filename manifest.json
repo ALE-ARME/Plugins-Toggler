@@ -1,0 +1,10 @@
+{
+  "id": "plugins-toggler",
+  "name": "Plugins Toggler",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "A plugin to quickly enable and disable other plugins from the command palette",
+  "author": "ALE-ARME",
+  "authorUrl": "https://github.com/ALE-ARME",
+  "isDesktopOnly": false
+}
