@@ -1,7 +1,7 @@
 # Description
 This plugin enables, disables or reloads any installed plugin via the command palette. It can also disable all plugins and remember which ones were active to re-enable them with the another command later.
 
-It works on computer and mobile and it's useful to enable and disable rarely used plugins, but also for debuggin other plugins by using disable all plugins and re-enable remembered plugins
+It works on computer and mobile and it's useful to enable and disable rarely used plugins, but also for debuggin other plugins by using `Disable ALL plugins (remembering active ones)` and `Re-enable remembered plugins`
 It works on computer and mobile
 # Installation
 ## 
