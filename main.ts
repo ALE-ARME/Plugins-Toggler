@@ -40,7 +40,7 @@ export default class PluginsToggler extends Plugin {
 
             // ADD ENABLE COMMAND
             this.addCommand({
-                id: `plugins-toggler-enable-${pluginId}`,
+                id: `enable-${pluginId}`,
                 name: `Enable: ${pluginName}`,
                 callback: async () => {
                     // @ts-ignore
@@ -51,7 +51,7 @@ export default class PluginsToggler extends Plugin {
 
             // ADD DISABLE COMMAND
             this.addCommand({
-                id: `plugins-toggler-disable-${pluginId}`,
+                id: `disable-${pluginId}`,
                 name: `Disable: ${pluginName}`,
                 callback: async () => {
                     // @ts-ignore
@@ -62,7 +62,7 @@ export default class PluginsToggler extends Plugin {
 
             // ADD RELOAD COMMAND
             this.addCommand({
-                id: `plugins-toggler-reload-${pluginId}`,
+                id: `reload-${pluginId}`,
                 name: `Reload: ${pluginName}`,
                 callback: async () => {
                     // @ts-ignore
@@ -77,7 +77,7 @@ export default class PluginsToggler extends Plugin {
 
     addGlobalCommands() {
         this.addCommand({
-            id: 'plugins-toggler-disable-all-remember',
+            id: 'disable-all-remember',
             name: 'Disable ALL plugins (remembering active ones)',
             callback: async () => {
                 // @ts-ignore
@@ -96,7 +96,7 @@ export default class PluginsToggler extends Plugin {
         });
 
         this.addCommand({
-            id: 'plugins-toggler-reenable-remembered',
+            id: 'reenable-remembered',
             name: 'Re-enable remembered plugins',
             callback: async () => {
                 const pluginsToEnable = [...this.settings.lastActivePlugins];
