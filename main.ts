@@ -1,4 +1,4 @@
-import { App, Plugin, PluginManifest, PluginSettingTab, Setting, Notice } from 'obsidian';
+import { App, Plugin, PluginSettingTab, Setting, Notice } from 'obsidian';
 
 interface PluginsTogglerSettings {
     lastActivePlugins: string[];
@@ -78,7 +78,7 @@ export default class PluginsToggler extends Plugin {
     addGlobalCommands() {
         this.addCommand({
             id: 'disable-all-remember',
-            name: 'Disable ALL plugins (remembering active ones)',
+            name: 'Disable all plugins (remembering active ones)',
             callback: async () => {
                 // @ts-ignore
                 const enabledPlugins = Object.keys(this.app.plugins.plugins);
@@ -137,8 +137,8 @@ class PluginsTogglerSettingTab extends PluginSettingTab {
         containerEl.empty();
 
         new Setting(containerEl)
-            .setName('Disable self with ALL commands')
-            .setDesc('If enabled, this plugin will also be disabled when using \'Disable ALL plugins\' commands.')
+            .setName('Disable self with all commands')
+            .setDesc('If enabled, this plugin will also be disabled when using \'Disable all plugins\' commands.')
             .addToggle(toggle => toggle
                 .setValue(this.plugin.settings.disableSelf)
                 .onChange(async (value) => {
